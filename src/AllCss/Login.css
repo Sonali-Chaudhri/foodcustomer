@@ -1,0 +1,68 @@
+.form-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: url("../componants/Img/veggies.avif");
+}
+
+.log-form-container1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    
+}
+.simpleform{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 50%;
+
+    
+
+}
+.loginname{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.simpleform1:hover{
+    background-color:rgb(240, 167, 240);
+    cursor: pointer;
+}
+.simpleform1{
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+    margin:  0 20px ;
+    height: 50px;
+    width: 25vw;
+    font-weight: bolder;
+
+}
+.button{
+    color:#fff;
+    align-self:center;
+    background-color: black;
+    border-radius: 20px;
+    padding:8px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    font-size: large;
+    font-weight: bolder;
+}
+.p{
+    color:#fff;
+    text-align: center;
+    font-weight: bold;
+    font-size:25px ;
+    font-style: italic;
+}
+
+
+
