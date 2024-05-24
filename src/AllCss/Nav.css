@@ -1,0 +1,20 @@
+.Nav-food{
+    background:rgba(0, 0, 0, 0.613);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 999;
+}
+.Nav-food2{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.Nav-food2:hover{
+    cursor: pointer;
+    background-color: rgb(109, 121, 232);
+    padding: 10px;
+    border-radius: 10px;
+}

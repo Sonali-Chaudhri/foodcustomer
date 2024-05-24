@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Route, BrowserRouter, Routes } from "react-router-dom";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Home from "./componants/Home";
 import About from "./componants/About";
 import Contact from "./componants/Contact";
@@ -9,6 +9,7 @@ import Login from "./componants/Login";
 import Profile from "./componants/Profile";
 import FoodNavbar from "./FoodNavbar";
 import Register from "./Register";
+import OrderDetails from "./componants/OrderDetails";
 
 const FoodRoute = () => {
   return (
@@ -24,6 +25,7 @@ const FoodRoute = () => {
           <Route path="/Login" element={<Login />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/orderdetails" element={<OrderDetails />} />
         </Routes>
       </BrowserRouter>
     </div>

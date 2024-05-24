@@ -1,0 +1,51 @@
+.div-mycarts {
+    background-color: #c8d3d5;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+
+
+.my-cart {
+    background-color: black;
+    color: rgb(15, 15, 16);
+    height: 30vh;
+    width: 20vw;
+    background-position: fixed;
+    margin-top: 180px;
+    margin-left: 500px;
+}
+
+
+.btn-cart-custom {
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 50px;
+    background: #ffcc00;
+
+}
+
+.h4-cart {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: #080808;
+
+
+}
+
+.body-fod {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.cart-container {
+    height: 98.9vh;
+    width: 105vw;
+}
+.img-card{
+    margin: 80px 10px;
+}

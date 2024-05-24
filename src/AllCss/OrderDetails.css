@@ -1,0 +1,18 @@
+.order-card-cust {
+    border: 1px solid red;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.order-card-custimg {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.Order-container {
+    width: 100%;
+    height: 100vh;
+}

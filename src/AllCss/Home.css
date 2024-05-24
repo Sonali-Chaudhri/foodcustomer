@@ -1,0 +1,47 @@
+.homecard{
+    display: flex;
+    margin: 15px;
+    margin-bottom: 30px;
+    height: 400px;
+   align-items: center;
+   border: 1px solid #ccc;
+
+   transition: transform 0.5s ease;
+
+}
+.homecard:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+
+}
+.homecardimg{
+    padding: 0;
+    margin: 0;
+    height: 220px;
+    object-fit: cover;
+}
+
+.home-container {
+    display: flex;
+   gap: 10px;
+   flex-direction: column;
+    margin-top: 500px;
+   margin: 70px;
+   margin-left: 150px;
+   padding: 20px;
+   justify-content: space-between;
+   justify-content: center;
+
+}
+.dropdown-home{
+    width: 500px;
+    border-radius: 50px;
+    margin-left: 400px;
+    padding: 15px;
+}
+.btn-dropdown{
+    height: 60px;
+    width: 170px;
+    margin-left: 50px;
+    background-color: #ffcc00;
+}

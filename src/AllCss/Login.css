@@ -2,11 +2,12 @@
     height: 100vh;
     width: 100vw;
     display: flex;
+    background-size: cover;
     background-image: url("../componants/Img/veggies.avif");
 }
 
 .log-form-container1 {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -38,30 +39,34 @@
     font-style: italic;
     font-size: medium;
     margin:  0 20px ;
-    height: 50px;
+    height: 45px;
     width: 25vw;
     font-weight: bolder;
+    flex-direction: column;
+
 
 }
-.button{
+.bbutton{
     color:#fff;
     align-self:center;
     background-color: black;
     border-radius: 20px;
-    padding:8px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 15vw;
+    padding:7px;
+    margin-right: 47%;
+    margin-top: 20px;
+
+    width: 12vw;
     font-size: large;
     font-weight: bolder;
+    
 }
-.p{
+.para{
     color:#fff;
-    text-align: center;
     font-weight: bold;
     font-size:25px ;
     font-style: italic;
+    margin-left: -720px;
+    margin-top: 30px;
 }
 
 
